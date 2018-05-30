@@ -1,0 +1,21 @@
+//serialization process
+import java.io.*;
+class  empseri
+{
+	public static void main(String kat[])
+	{
+		emp my=new emp("kathir","9");
+		try
+		{
+			FileOutputStream fout=new FileOutputStream(aaa.txt);
+			ObjectOutputStream oout=new ObjectOutputStream(fout);
+			oout.writeObject(my);
+			oout.flush();
+			oout.close();
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+	}
+}

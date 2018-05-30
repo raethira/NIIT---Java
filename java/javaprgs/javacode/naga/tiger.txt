@@ -1,0 +1,9 @@
+					INHERITANCE
+
+	Introduction:
+		
+		Inheritance, one of the most powerful features object oriented programming.  Inheritance is the process of creating new class  from an existing class.  The existing class is known as the base class  and newly created class is called dirived class.  The derived class inherits the data members and member functions of the base class automatically, and also add some new member data and member function for its own.  The base class is unchanged by its pprocess.  The main advantages of the inheritance are:
+	
+	* reusability of the code
+	* to increase the reliability of the code
+	* to add some enhancements to the base class.  

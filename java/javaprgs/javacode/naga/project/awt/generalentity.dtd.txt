@@ -1,0 +1,13 @@
+<? xml version="1.0" encoding='UTF-8" standard="yes" ?>
+<!DOCTYPE empfolio [
+	<! ELEMENT emp (empname,empcity)>
+	<!ELEMENT empname (#PCDATA)>
+	<!ELEMENT empcity (#PCDATA)>
+	<!ENTITY SB "created for niit">
+]>
+<empfolio> &sb;
+<emp>
+<empname>kathir</empname>
+<empcity>mumbai</empcity>
+</emp>
+</empfolio>

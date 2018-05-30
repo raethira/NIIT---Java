@@ -1,0 +1,19 @@
+import java.io.*;
+class bufout
+{
+	public static void main(string args[])
+	{
+		String str="Creating program";
+		byte buffer[]=str.getBytes();
+		BufferedOutputStream br=new BufferedOutputStream(system.out);
+		try
+		{
+			br.write(bufferr);
+			br.flush	 ();
+		}
+		catch(Exception e)
+		{
+			Systyem.out.println(e);
+		}
+	}
+}

@@ -1,0 +1,43 @@
+Compiled from StringBuffer.java
+public final class java.lang.StringBuffer extends java.lang.Object implements java.io.Serializable {
+    static final long serialVersionUID;
+    public java.lang.StringBuffer();
+    public java.lang.StringBuffer(int);
+    public java.lang.StringBuffer(java.lang.String);
+    public int length();
+    public int capacity();
+    public synchronized void ensureCapacity(int);
+    public synchronized void setLength(int);
+    public synchronized char charAt(int);
+    public synchronized void getChars(int, int, char[], int);
+    public synchronized void setCharAt(int, char);
+    public synchronized java.lang.StringBuffer append(java.lang.Object);
+    public synchronized java.lang.StringBuffer append(java.lang.String);
+    public synchronized java.lang.StringBuffer append(char[]);
+    public synchronized java.lang.StringBuffer append(char[], int, int);
+    public java.lang.StringBuffer append(boolean);
+    public synchronized java.lang.StringBuffer append(char);
+    public java.lang.StringBuffer append(int);
+    public java.lang.StringBuffer append(long);
+    public java.lang.StringBuffer append(float);
+    public java.lang.StringBuffer append(double);
+    public synchronized java.lang.StringBuffer delete(int, int);
+    public synchronized java.lang.StringBuffer deleteCharAt(int);
+    public synchronized java.lang.StringBuffer replace(int, int, java.lang.String);
+    public java.lang.String substring(int);
+    public synchronized java.lang.String substring(int, int);
+    public synchronized java.lang.StringBuffer insert(int, char[], int, int);
+    public synchronized java.lang.StringBuffer insert(int, java.lang.Object);
+    public synchronized java.lang.StringBuffer insert(int, java.lang.String);
+    public synchronized java.lang.StringBuffer insert(int, char[]);
+    public java.lang.StringBuffer insert(int, boolean);
+    public synchronized java.lang.StringBuffer insert(int, char);
+    public java.lang.StringBuffer insert(int, int);
+    public java.lang.StringBuffer insert(int, long);
+    public java.lang.StringBuffer insert(int, float);
+    public java.lang.StringBuffer insert(int, double);
+    public synchronized java.lang.StringBuffer reverse();
+    public java.lang.String toString();
+    final void setShared();
+    final char getValue()[];
+}

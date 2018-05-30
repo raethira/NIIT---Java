@@ -1,0 +1,1 @@
+set classpath=c:\jdk1.3\bin;%classpath%;

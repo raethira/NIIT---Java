@@ -1,0 +1,50 @@
+Compiled from "HashMap.java"
+public class java.util.HashMap extends java.util.AbstractMap implements java.util.Map,java.lang.Cloneable,java.io.Serializable{
+    static final int DEFAULT_INITIAL_CAPACITY;
+    static final int MAXIMUM_CAPACITY;
+    static final float DEFAULT_LOAD_FACTOR;
+    transient java.util.HashMap$Entry[] table;
+    transient int size;
+    int threshold;
+    final float loadFactor;
+    volatile transient int modCount;
+    static final java.lang.Object NULL_KEY;
+    public java.util.HashMap(int, float);
+    public java.util.HashMap(int);
+    public java.util.HashMap();
+    public java.util.HashMap(java.util.Map);
+    void init();
+    static java.lang.Object maskNull(java.lang.Object);
+    static java.lang.Object unmaskNull(java.lang.Object);
+    static int hash(java.lang.Object);
+    static boolean eq(java.lang.Object, java.lang.Object);
+    static int indexFor(int, int);
+    public int size();
+    public boolean isEmpty();
+    public java.lang.Object get(java.lang.Object);
+    public boolean containsKey(java.lang.Object);
+    java.util.HashMap$Entry getEntry(java.lang.Object);
+    public java.lang.Object put(java.lang.Object, java.lang.Object);
+    void putAllForCreate(java.util.Map);
+    void resize(int);
+    void transfer(java.util.HashMap$Entry[]);
+    public void putAll(java.util.Map);
+    public java.lang.Object remove(java.lang.Object);
+    java.util.HashMap$Entry removeEntryForKey(java.lang.Object);
+    java.util.HashMap$Entry removeMapping(java.lang.Object);
+    public void clear();
+    public boolean containsValue(java.lang.Object);
+    public java.lang.Object clone();
+    void addEntry(int, java.lang.Object, java.lang.Object, int);
+    void createEntry(int, java.lang.Object, java.lang.Object, int);
+    java.util.Iterator newKeyIterator();
+    java.util.Iterator newValueIterator();
+    java.util.Iterator newEntryIterator();
+    public java.util.Set keySet();
+    public java.util.Collection values();
+    public java.util.Set entrySet();
+    int capacity();
+    float loadFactor();
+    static {};
+}
+

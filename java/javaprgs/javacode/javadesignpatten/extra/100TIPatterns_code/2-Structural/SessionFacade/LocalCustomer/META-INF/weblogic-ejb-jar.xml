@@ -1,0 +1,51 @@
+<!DOCTYPE weblogic-ejb-jar PUBLIC '-//BEA Systems, Inc.//DTD WebLogic 8.1.0 EJB//EN' 'http://www.bea.com/servers/wls810/dtd/weblogic-ejb-jar.dtd'>
+
+
+<!-- Generated XML! -->
+
+<weblogic-ejb-jar>
+  <weblogic-enterprise-bean>
+    <ejb-name>CMPCustEJB2</ejb-name>
+    <entity-descriptor>
+      <pool>
+      </pool>
+
+      <entity-cache>
+      </entity-cache>
+
+      <persistence>
+        <persistence-use>
+          <type-identifier>WebLogic_CMP_RDBMS</type-identifier>
+          <type-version>7.0</type-version>
+          <type-storage>META-INF/weblogic-cmp-rdbms-jar.xml</type-storage>
+        </persistence-use>
+
+      </persistence>
+
+      <entity-clustering>
+      </entity-clustering>
+
+    </entity-descriptor>
+
+    <transaction-descriptor>
+    </transaction-descriptor>
+
+    <local-jndi-name>CMPCustEJB2</local-jndi-name>
+  </weblogic-enterprise-bean>
+  <weblogic-enterprise-bean>
+    <ejb-name>TransactionEJBSF2</ejb-name>
+    <stateless-session-descriptor>
+      <pool>
+      </pool>
+
+      <stateless-clustering>
+      </stateless-clustering>
+
+    </stateless-session-descriptor>
+
+    <transaction-descriptor>
+    </transaction-descriptor>
+
+    <jndi-name>TransactionEJBSF2</jndi-name>
+  </weblogic-enterprise-bean>
+</weblogic-ejb-jar>

@@ -1,0 +1,6 @@
+Compiled from ActionListener.java
+public interface java.awt.event.ActionListener extends java.util.EventListener 
+    /* ACC_SUPER bit NOT set */
+{
+    public abstract void actionPerformed(java.awt.event.ActionEvent);
+}

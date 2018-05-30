@@ -1,0 +1,38 @@
+interface i1
+{
+	public void A();
+}
+interface i2
+{
+	public void B();
+}
+interface i3
+{
+	public void C();
+}
+class inter implements i1,i2,i3
+{
+	public void A()
+	{
+		System.out.println("A is Called");
+	}
+	public void B()
+	{
+		System.out.println("B is Called");
+	}
+	public void C()
+	{
+		System.out.println("C is Called");
+	} 
+}
+class interdemo
+{
+	public static void main(String kat[])
+	{
+		inter i=new inter();
+		i.A();
+		i.B();
+		i.C();
+	}
+}
+

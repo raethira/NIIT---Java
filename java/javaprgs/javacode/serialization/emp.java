@@ -1,0 +1,39 @@
+//serializable interface
+import java.io.*;
+public class  emp implements Serializable
+{
+	   String name;
+	   String id;
+	   emp(){}
+	   emp(String name,String id)
+	{
+		   this.name=name;
+		   this.id=id;
+	}
+	public void show()
+	{
+		System.out.println(name);
+		System.out.println(id);
+	}
+}
+//serialization process
+public class  empseridemo
+{
+	public static void main(String kat[])
+	{
+		emp my=new emp("kathir","9");
+		try
+		{
+			FileOutputStream fout=new FileOutputStream(aaa.txt);
+			ObjectOutputStream oout=new ObjectOutputStream(fout);
+			oout.writeObject(my);
+			oout.flush();
+			oout.close();
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+	}
+}
+

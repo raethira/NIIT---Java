@@ -1,0 +1,10 @@
+						OBJECT AND CLASS
+	Introduction:
+		
+		Structures are used to provide away to group data elements, and functions which organize programe actions into named entities.  A class is an unit which combines both data and the functions that operates on the data.  The internal data of the class is called as member data and the functions are called member functions.  The member functions mostly manipulate the internal data of a class.  The member data of a class should not normally be addressed outside a member functions.  The variables of a class are called objects or instamces of a class.
+
+	Structures Vs Classes:
+		
+		We know that a structure contains one or more data items called members, which are grouped together as a single unit.  On the other hand, a class is similar to a structure data type but it consist  of not only data elements but also functions which are operated on the data elements.  Secondly, in structure all the members are public by default, while in a class it is private.  The data and functions can be defined in a class as one of the sections such as private, public and protected.
+		The classes also provide support for data hiding, abstraction,encapsulation, single unheritamce, multiple inheritance and ploymorphism.  These features are discussed briefly later in the corresponding chapters.	
+		Copy constructer are always used when the complier as to create a temprorary object of a class object

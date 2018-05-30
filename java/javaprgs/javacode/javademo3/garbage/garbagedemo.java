@@ -1,0 +1,11 @@
+class garbagedemo
+{
+	public static void main(String kat[])
+	{
+		Runtime r=Runtime.getRuntime();
+		System.out.println("free memory"+r.freeMemory());
+		System.out.println("total memeory"+r.totalMemory());
+		r.gc();
+		System.exit(10);
+	}
+}
